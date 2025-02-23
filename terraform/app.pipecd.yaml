@@ -1,6 +1,6 @@
 apiVersion: pipecd.dev/v1beta1
 kind: TerraformApp
 spec:
-  name: dev
+  name: aws-terraform
   labels:
     team: infra
