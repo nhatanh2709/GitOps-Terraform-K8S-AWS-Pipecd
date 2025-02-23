@@ -1,0 +1,6 @@
+apiVersion: pipecd.dev/v1beta1
+kind: TerraformApp
+spec:
+  name: dev
+  labels:
+    team: infra
