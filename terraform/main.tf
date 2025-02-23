@@ -6,7 +6,7 @@ terraform {
         encrypt        = true
         role_arn       = "arn:aws:iam::145023122173:role/S3-PipecdS3BackendRole"
         dynamodb_table = "pipecd-s3-backend"
-        shared_credentials_files = ["/etc/piped-secret/credentials"]
+        shared_credentials_file = "/etc/piped-secret/credentials"
     }
 }
 
