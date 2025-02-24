@@ -4,7 +4,7 @@ terraform {
         key            = "pipecd"
         region         = "ap-southeast-2"
         encrypt        = true
-        role_arn       = "arn:aws:iam::145023122173:role/S3-PipecdS3BackendRole"
+       
         dynamodb_table = "s3-pipecd-s3-backend"
         shared_credentials_file = "/etc/piped-secret/credentials"
     }
