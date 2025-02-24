@@ -4,3 +4,6 @@ spec:
   name: dev
   labels:
     team: infra
+  input:
+    terraform:
+      version: "1.10.1"

@@ -1,5 +1,4 @@
 terraform {
-    required_version = ">=0.13.0"
     backend "s3" {
         bucket         = "s3-pipecd-s3-backend"
         key            = "pipecd"
